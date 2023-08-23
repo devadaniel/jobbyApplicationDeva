@@ -1,0 +1,39 @@
+.home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  color: #ffff;
+  width: 350px;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #ffff;
+  width: 350px;
+}
+
+.shop-now-button {
+  background-color: #6366f1;
+  background-size: cover;
+  height: 40px;
+  width: 100px;
+  font-family: 'Roboto';
+  color: #ffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

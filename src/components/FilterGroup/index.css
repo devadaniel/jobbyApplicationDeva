@@ -1,0 +1,23 @@
+.employ-type-list,
+.salary-list-items {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.employ-type-heading,
+.salary-range-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+.list-items,
+.salary-items {
+  margin: 10px;
+}
+
+.label-type,
+.radio-label {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
